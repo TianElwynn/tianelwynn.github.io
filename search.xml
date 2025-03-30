@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Preliminaries</title>
-    <url>/2025/03/30/Preliminaries/</url>
-    <content><![CDATA[<p>In this series, we will focus on less on sharing a “bag” of algorithms and more on the broadly-applicable techniques that will guide one in finding an apporpriate algorithem given a problem. We need a formalization for evaluating what these algorithms can and cannot do; we need a model of compution.</p>
-<h4 id="1-1-A-formal-model-of-computation-the-RAM-model"><a href="#1-1-A-formal-model-of-computation-the-RAM-model" class="headerlink" title="1.1 A formal model of computation: the RAM model"></a>1.1 A formal model of computation: the RAM model</h4><p>We will be primarily concerned with the RAM(Random Access Memory) model of computation because it is considered to be simple (so that theorems are easier to prove),realistic(representative of real computations), and machine-independent. In the RAM model of computation, the CPU can access any location in memory at unit cost.</p>
-<p>![F1.1](..&#x2F;images&#x2F;Figure1.1 RAM model of computation.png)</p>
-<h5 id="1-1-1-Other-possible-models-of-computation"><a href="#1-1-1-Other-possible-models-of-computation" class="headerlink" title="1.1.1 Other possible models of computation"></a>1.1.1 Other possible models of computation</h5><p>In the <strong>Turing Machine model</strong>, only a memory location’s immediate neighbors can be accessed from the current location. While thi simplification makes it easier to prove theorems concerning the limits of computability, it is unrealistic for the computers we use today, which hae random access memory. This makes the model less useful for discussing algorithms.</p>
-<p>The <strong>Hierarchical Memory Model</strong>, which includes cache adn disk, has a more realistic representation of memory than the RAM model, because not all memory accesses are unit cost. In this model, proving theorems, particularly concerning the analysis of running time, is much more difficult.</p>
-<p><strong>Parallel Processing models</strong> take into account the aspects of parallelizing computation.</p>
-<h4 id="1-2-Running-time"><a href="#1-2-Running-time" class="headerlink" title="1.2 Running time"></a>1.2 Running time</h4><p>We analyze algorithms in order to determine whether or not we consider it feasible to fund the solution for a given problem with current resource constraints. One of the metrics we use to determine feasibility is the running time of the algorithm, which is the product of the number of operations that the algorithm requires to solve a given problem and the unit-cost of one operation.</p>
-<ul>
-<li>pairwise arithmetic operation</li>
-<li>access to memory</li>
-<li>logical operations</li>
-<li>comparisons (such as larger than or same)</li>
-</ul>
-<h5 id="1-2-1-Asymptotic-Behavior-Worst-Case-Running-Time"><a href="#1-2-1-Asymptotic-Behavior-Worst-Case-Running-Time" class="headerlink" title="1.2.1 Asymptotic Behavior:Worst-Case Running Time"></a>1.2.1 Asymptotic Behavior:Worst-Case Running Time</h5><p>Once we have a formal model for computation, how many operations do we need to compute the solution to a problem? We are interested in the rate that the number of operations frows as a function of the input size. For each partucular input size, we measure the worst-case running time: on inputs of size <em>n</em> we denote this worst-case running time <em>T(n)</em>.Table 1.1 shows the actual (wall clock) time require to perform a number of operations on a machine capable of executing one billion operations per second. The running times for this machine ate listed for various functions <em>T(n)</em> and input sizes n ranging from ten through one million. This tables illustrates the dramatic effect on running time of the asymptotic growth rate. In particular, for sufficiently large inputs, leading constantfactorsin他和expression T(n) do not have much of an effect on whether a running time is realistic or not. As a result, we are much more concerned with the asymptotic growth rate than with constant factors. Thus, we use asymptotic notation to “hide” constant factors and focus in the asymptotic growth rate.</p>
-]]></content>
-      <tags>
-        <tag>Algorithms</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2025/03/30/introduction/</url>
     <content><![CDATA[<p>  我是Elwynn，欢迎访问。本博客分享一些工作中可能会用到的技术栈，本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。</p>
