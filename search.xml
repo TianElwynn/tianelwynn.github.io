@@ -4,12 +4,15 @@
     <title>Preliminaries</title>
     <url>/2025/03/30/Preliminaries/</url>
     <content><![CDATA[]]></content>
+      <tags>
+        <tag>Algorithms</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
     <url>/2025/03/30/hello-world/</url>
     <content><![CDATA[<p>Welcome to GoldShire! </p>
-<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 [前言] （&#x2F;source&#x2F;_posts&#x2F;Preliminaries.md)</p>
+<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">前言</a></p>
 <h2 id="🗂-分类索引"><a href="#🗂-分类索引" class="headerlink" title="🗂 分类索引"></a>🗂 分类索引</h2><h3 id="技术笔记"><a href="#技术笔记" class="headerlink" title="技术笔记"></a>技术笔记</h3><ul>
 <li><a href="/source/_posts/Preliminaries.md">前言</a></li>
 </ul>
