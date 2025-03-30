@@ -29,10 +29,10 @@
   <entry>
     <title>Hello World</title>
     <url>/posts/introduction/</url>
-    <content><![CDATA[<p>  我是Elwynn，欢迎访问。本博客分享一些工作中可能会用到的技术栈，本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。</p>
-<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">Perliminaries</a></p>
+    <content><![CDATA[<p>  欢迎访问，本博客主要目的是和大家碎碎念一些基本技巧和原则。本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。本博客会持续更新，目前暂定一周一更，但不保证。</p>
+<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/2025-03-30-Preliminaries.md">Perliminaries</a></p>
 <h2 id="🗂-分类索引"><a href="#🗂-分类索引" class="headerlink" title="🗂 分类索引"></a>🗂 分类索引</h2><h3 id="技术笔记"><a href="#技术笔记" class="headerlink" title="技术笔记"></a>技术笔记</h3><ul>
-<li><a href="/source/_posts/Preliminaries.md">Perliminaries</a></li>
+<li><a href="/source/_posts/2025-03-30-Preliminaries.md">Perliminaries</a></li>
 </ul>
 <blockquote>
 <p>日志最后更新于 <br>If you want to go fast, go alone. If you want to go far, go together.</p>
