@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/introduction/</url>
-    <content><![CDATA[<p>  我是Elwynn，欢迎访问。本博客分享一些工作中可能会用到的技术栈，本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。</p>
-<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">Perliminaries</a></p>
-<h2 id="🗂-分类索引"><a href="#🗂-分类索引" class="headerlink" title="🗂 分类索引"></a>🗂 分类索引</h2><h3 id="技术笔记"><a href="#技术笔记" class="headerlink" title="技术笔记"></a>技术笔记</h3><ul>
-<li><a href="/source/_posts/Preliminaries.md">Perliminaries</a></li>
-</ul>
-<blockquote>
-<p>日志最后更新于 <br>If you want to go fast, go alone. If you want to go far, go together.</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>Preliminaries</title>
     <url>/posts/Preliminaries/</url>
     <content><![CDATA[<p>In this series, we will focus on less on sharing a “bag” of algorithms and more on the broadly-applicable techniques that will guide one in finding an apporpriate algorithem given a problem. We need a formalization for evaluating what these algorithms can and cannot do; we need a model of compution.</p>
 <h4 id="1-1-A-formal-model-of-computation-the-RAM-model"><a href="#1-1-A-formal-model-of-computation-the-RAM-model" class="headerlink" title="1.1 A formal model of computation: the RAM model"></a>1.1 A formal model of computation: the RAM model</h4><p>We will be primarily concerned with the RAM(Random Access Memory) model of computation because it is considered to be simple (so that theorems are easier to prove),realistic(representative of real computations), and machine-independent. In the RAM model of computation, the CPU can access any location in memory at unit cost.</p>
-<p><img src="/../2025-03-30-Preliminaries/Figure1.1%20RAM%20model%20of%20computation.png" alt="F1.1"></p>
+<p><img src="/./2025-03-30-Preliminaries/Figure1.1_RAM_model_of_computation.png" alt="F1.1"></p>
 <h5 id="1-1-1-Other-possible-models-of-computation"><a href="#1-1-1-Other-possible-models-of-computation" class="headerlink" title="1.1.1 Other possible models of computation"></a>1.1.1 Other possible models of computation</h5><p>In the <strong>Turing Machine model</strong>, only a memory location’s immediate neighbors can be accessed from the current location. While thi simplification makes it easier to prove theorems concerning the limits of computability, it is unrealistic for the computers we use today, which hae random access memory. This makes the model less useful for discussing algorithms.</p>
 <p>The <strong>Hierarchical Memory Model</strong>, which includes cache adn disk, has a more realistic representation of memory than the RAM model, because not all memory accesses are unit cost. In this model, proving theorems, particularly concerning the analysis of running time, is much more difficult.</p>
 <p><strong>Parallel Processing models</strong> take into account the aspects of parallelizing computation.</p>
@@ -38,5 +25,18 @@
         <tag>算法</tag>
         <tag>时间复杂度</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/introduction/</url>
+    <content><![CDATA[<p>  我是Elwynn，欢迎访问。本博客分享一些工作中可能会用到的技术栈，本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。</p>
+<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">Perliminaries</a></p>
+<h2 id="🗂-分类索引"><a href="#🗂-分类索引" class="headerlink" title="🗂 分类索引"></a>🗂 分类索引</h2><h3 id="技术笔记"><a href="#技术笔记" class="headerlink" title="技术笔记"></a>技术笔记</h3><ul>
+<li><a href="/source/_posts/Preliminaries.md">Perliminaries</a></li>
+</ul>
+<blockquote>
+<p>日志最后更新于 <br>If you want to go fast, go alone. If you want to go far, go together.</p>
+</blockquote>
+]]></content>
   </entry>
 </search>
