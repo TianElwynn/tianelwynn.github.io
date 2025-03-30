@@ -3,7 +3,10 @@
   <entry>
     <title>Preliminaries</title>
     <url>/2025/03/30/Preliminaries/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>In this series, we will focus on less on sharing a “bag” of algorithms and more on the broadly-applicable techniques that will guide one in finding an apporpriate algorithem given a problem. We need a formalization for evaluating what these algorithms can and cannot do; we need a model of compution.</p>
+<h4 id="1-1-A-formal-model-of-computation-the-RAM-model"><a href="#1-1-A-formal-model-of-computation-the-RAM-model" class="headerlink" title="1.1 A formal model of computation: the RAM model"></a>1.1 A formal model of computation: the RAM model</h4><p>We will be primarily concerned with the RAM(Random Access Memory) model of computation because it is considered to be simple (so that theorems are easier to prove),realistic(representative of real computations), and machine-independent. In the RAM model of computation, the CPU can access any location in memory at unit cost.</p>
+<p>![F1.1](&#x2F;source&#x2F;images&#x2F;Figure1.1 RAM model of computation.png)</p>
+]]></content>
       <tags>
         <tag>Algorithms</tag>
       </tags>
@@ -12,9 +15,9 @@
     <title>Hello World</title>
     <url>/2025/03/30/introduction/</url>
     <content><![CDATA[<p>  我是Elwynn，本博客会分享一些工作中可能会用到的技术栈，本人才疏学浅，而技术又日新月异，文章中肯定会有陈旧乃至错误的信息，欢迎批评指正。</p>
-<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">前言</a></p>
+<h2 id="📅-近期更新"><a href="#📅-近期更新" class="headerlink" title="📅 近期更新"></a>📅 近期更新</h2><p> 2025-03-30 <a href="/source/_posts/Preliminaries.md">Perliminaries</a></p>
 <h2 id="🗂-分类索引"><a href="#🗂-分类索引" class="headerlink" title="🗂 分类索引"></a>🗂 分类索引</h2><h3 id="技术笔记"><a href="#技术笔记" class="headerlink" title="技术笔记"></a>技术笔记</h3><ul>
-<li><a href="/source/_posts/Preliminaries.md">前言</a></li>
+<li><a href="/source/_posts/Preliminaries.md">Perliminaries</a></li>
 </ul>
 <blockquote>
 <p>日志最后更新于 <br>If you want to go fast, go alone. If you want to go far, go together.</p>
